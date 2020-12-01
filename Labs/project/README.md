@@ -53,7 +53,7 @@ Schéma zapojení reálného převodníku
 
 &nbsp;
 
-
+test
 
 
 
