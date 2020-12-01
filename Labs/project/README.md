@@ -1,5 +1,5 @@
 # R-2R ladder Digital to Analog Converter (DAC)
-Vojtěch Vyplel; Aleš Pokorný
+Vojtěch Vyplel; [*Aleš Pokorný*](https://github.com/xpokor79/Digital-electronics-2/tree/master/Labs)
 
 ### Project objectives
 Naprogramovat generátor funkcí v rozsahu frekvencí 10Hz - 10kHz s průběhy: sin, square, ramp a generování signálu DTMF. Informace o aktuálním nastavení se budou zobrazovat na LCD. Zadávání hodnot bude realizováno pomocí klávesnice 4x3.Generátor bude možné ovládat pomocí UART.
@@ -53,7 +53,11 @@ Schéma zapojení reálného převodníku
 
 &nbsp;
 
+#### 4x3 klávesnice
+Klávesnice tvoří matici. Při stisku tlačítka se přenese informace o stisku jak na pinech pro řádky, tak pro sloupce a díky tomu jsme schopni detekovat všech 12 možných slačítek pouze za pomoci 7 pinů.
 
+#### LCD (Liquid Crystal Display)
+Pro ovládání LCD použijeme 4 bitový mód, díky čemuž minimaluzijeme počet potřebných pinů.
 
 
 
