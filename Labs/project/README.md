@@ -53,7 +53,11 @@ Schéma zapojení reálného převodníku
 
 &nbsp;
 
-test
+#### 4x3 klávesnice
+Klávesnice tvoří matici. Při stisku tlačítka se přenese informace o stisku jak na pinech pro řádky, tak pro sloupce a díky tomu jsme schopni detekovat všech 12 možných slačítek pouze za pomoci 7 pinů.
+
+#### LCD (Liquid Crystal Display)
+Pro ovládání LCD použijeme 4 bitový mód, díky čemuž minimaluzijeme počet potřebných pinů.
 
 
 
