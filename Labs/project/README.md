@@ -63,8 +63,11 @@ Pro ovládání LCD použijeme 4 bitový mód, díky čemuž minimaluzijeme poč
 
 ## Code description and simulations
 
-*Write your text here*
+&nbsp;
+Vývojový diagram programu:
+&nbsp;
 
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/diagram.png">
 
 ## Video/Animation
 
