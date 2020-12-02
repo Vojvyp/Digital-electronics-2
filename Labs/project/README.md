@@ -52,6 +52,10 @@ Schéma zapojení reálného převodníku
 &nbsp;
 
 &nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/schema.png">
+&nbsp;
+
+&nbsp;
 
 #### 4x3 klávesnice
 Klávesnice tvoří matici. Při stisku tlačítka se přenese informace o stisku jak na pinech pro řádky, tak pro sloupce a díky tomu jsme schopni detekovat všech 12 možných slačítek pouze za pomoci 7 pinů.
