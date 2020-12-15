@@ -52,13 +52,46 @@ Schéma zapojení reálného převodníku
 &nbsp;
 
 &nbsp;
-<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/schema.png">
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/schema2.png">
 &nbsp;
 
 &nbsp;
 
 #### 4x4 klávesnice
-Klávesnice tvoří matici. Při stisku tlačítka se přenese informace o stisku jak na pinech pro řádky. klávesnice je zapojena s děliči napětí. Pro každé tlačítko se objeví na vstupu A/D převodníku v mikrokontroléru určité napětí.
+Klávesnice tvoří matici. Při stisku tlačítka se přenese informace o stisku jak na pinech pro řádky. klávesnice je zapojena s děliči napětí. Pro každé tlačítko se objeví na vstupu A/D převodníku v mikrokontroléru určité napětí. 
+&nbsp;
+
+&nbsp;
+Význam tlačítek na klávesnici:
+&nbsp;
+
+&nbsp;
+S - sinus
+&nbsp;
+
+&nbsp;
+R - pila
+&nbsp;
+
+&nbsp;
+Q - obdelník
+&nbsp;
+
+&nbsp;
+D - DTMF
+&nbsp;
+
+&nbsp;
+(*) - delete - nastavení výchozí hodnoty 10Hz
+&nbsp;
+
+&nbsp;
+(#)- enter
+&nbsp;
+
+&nbsp;
+číslice - zadání frekvence v Hz/ DTMF: číslicím odpovídají frekvence DTMF.
+&nbsp;
 
 #### LCD (Liquid Crystal Display)
 Pro ovládání LCD použijeme 4 bitový mód, díky čemuž minimaluzijeme počet potřebných pinů.
