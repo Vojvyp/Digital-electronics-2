@@ -96,6 +96,8 @@ D - DTMF
 #### LCD (Liquid Crystal Display)
 Pro ovládání LCD použijeme 4 bitový mód, díky čemuž minimaluzijeme počet potřebných pinů.(využití knihovny ze cvičení)
 
+
+&nbsp;
 ## Popis kódu a simulace
 
 &nbsp;
@@ -106,12 +108,14 @@ Vývojový diagram programu:
 
 Displej:
 
-Na displeji je zobrazován režim, ve kterém generátor běží a také frekvence zvloeného signálu, případně zvolené tlačítko pro DTMF.
+Na displeji je zobrazován režim, ve kterém generátor běží a také frekvence zvoleného signálu, případně zvolené tlačítko pro DTMF.
+&nbsp;
 
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/display.png">
+&nbsp;
 
-
-
-
+&nbsp;
 Kód začíná tím, že se přednastaví displej (knihovna lcd), nastaví se piny potřebné k DA převodníku na výstupní ([*Vlastní knihovna*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/gen_functions.c), která využívá knihovnu GPIO) a nastavení AD převodníku pro čtení stisknutého tlačítka z klávesnice.
 Dále jsou nastavovány 2 časovače. Časovač Timer/Counter1, který se stará o vstupy a Timer/Counter0 pro výstupy (knihovna timer). 
 Po zapnutí je generátor v výchozím stavu - SIN 10 Hz
