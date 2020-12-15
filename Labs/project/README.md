@@ -60,20 +60,35 @@ Schéma zapojení reálného převodníku
 #### 4x4 klávesnice
 Klávesnice tvoří matici. Při stisku tlačítka se přenese informace o stisku jak na pinech pro řádky. klávesnice je zapojena s děliči napětí. Pro každé tlačítko se objeví na vstupu A/D převodníku v mikrokontroléru určité napětí. 
 &nbsp;
+
+&nbsp;
 Význam tlačítek na klávesnici:
+&nbsp;
+
 &nbsp;
 S - sinus
 &nbsp;
+
+&nbsp;
 R - pila
+&nbsp;
+
 &nbsp;
 Q - obdelník
 &nbsp;
+
 &nbsp;
 D - DTMF
 &nbsp;
+
+&nbsp;
 * - delete - nastavení výchozí hodnoty 10Hz
 &nbsp;
+
+&nbsp;
 (#)- enter
+&nbsp;
+
 &nbsp;
 číslice - zadání frekvence v Hz/ DTMF: číslicím odpovídají frekvence DTMF.
 &nbsp;
