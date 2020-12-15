@@ -94,7 +94,7 @@ D - DTMF
 &nbsp;
 
 #### LCD (Liquid Crystal Display)
-Pro ovládání LCD použijeme 4 bitový mód, díky čemuž minimaluzijeme počet potřebných pinů.
+Pro ovládání LCD použijeme 4 bitový mód, díky čemuž minimaluzijeme počet potřebných pinů.(využití knihovny ze cvičení)
 
 ## Code description and simulations
 
