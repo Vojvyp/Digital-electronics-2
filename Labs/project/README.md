@@ -138,6 +138,8 @@ Fukce pro obdélník si spočítá kolik je možno udělat změn pro danou frekv
 V režimu DTMF dochází nejprve k určení frekvencí pro zvolené tlačítko. Poté se spočítá velikost kroku v tabulce pro jednotlivé frekvence a výsledná hodnota výstupu je dána součtem těchto 2 hodnot podělené 2.
 Časovač se měl také starat o vypisování informací pomocí knihovny uart, avšak po přidání kódu pro uart celá aplikace zamrzne. 
 
+[*Odkaz na kód*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/main.c)
+
 
 Vlastní knihovna:
 
