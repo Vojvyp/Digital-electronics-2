@@ -2,7 +2,7 @@
 Vojtěch Vyplel; [*Aleš Pokorný*](https://github.com/xpokor79/Digital-electronics-2/tree/master/Labs)
 
 ### Cíle projektu
-Naprogramovat generátor funkcí v rozsahu frekvencí 10Hz - 5kHz s průběhy: sin, square, ramp a generování signálu DTMF. Informace o aktuálním nastavení se budou zobrazovat na LCD. Zadávání hodnot bude realizováno pomocí klávesnice 4x4.Generátor bude možné ovládat pomocí UART.
+Naprogramovat generátor funkcí v rozsahu frekvencí 10Hz - 5kHz s průběhy: sin, square, ramp a generování signálu DTMF. Informace o aktuálním nastavení se budou zobrazovat na LCD. Zadávání hodnot bude realizováno pomocí klávesnice 4x4.
 
 ## Popis hardware
 Základem našeho generátoru funkcí bude mikroprocesor atmega328p a D/A převodík typu R2R postavený z odporové sítě.
@@ -190,8 +190,11 @@ Simulace režimu generování signálu DTMF:
 &nbsp;
 
 ## Závěr
+Vytvořený generátor umí generovat tři základní funkce (sinus, pila, obdélník) v rozsahu frekvencí 10-5000 Hz. Dále generuje DTMF signál pro talčítka 0-9 včetně * #. Generátor měl také odesílat informace o zvoleném režimu, frekvenci a zvoleném tlačítku DTMF. To se nám ovšem nepodařilo zprovoznit, aplikace zamrzne. V simulátoru občas dojde k odchylkám signálů, ale to je pravděpodobně způsobeno simulátorem. 
+&nbsp;
 
 
+&nbsp;
 ## Reference
 &nbsp;
 
