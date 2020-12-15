@@ -82,7 +82,7 @@ D - DTMF
 &nbsp;
 
 &nbsp;
-* - delete - nastavení výchozí hodnoty 10Hz
+(*) - delete - nastavení výchozí hodnoty 10Hz
 &nbsp;
 
 &nbsp;
