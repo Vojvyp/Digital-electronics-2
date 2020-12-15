@@ -1,7 +1,31 @@
 <circuit reactStep="50" speed="1000000" animate="0" type="simulide_0.4" noLinAcc="5">
  
+TextComponent-159: 
+<item id="TextComponent-152" labelx="-16" labely="-24" objectName="TextComponent-159" labelrot="0" Show_id="false" Text="b0" hflip="1" x="108" y="-356" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
+TextComponent-158: 
+<item id="TextComponent-152" labelx="-16" labely="-24" objectName="TextComponent-158" labelrot="0" Show_id="false" Text="b0" hflip="1" x="108" y="-312" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
+TextComponent-157: 
+<item id="TextComponent-152" labelx="-16" labely="-24" objectName="TextComponent-157" labelrot="0" Show_id="false" Text="b0" hflip="1" x="108" y="-268" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
+TextComponent-156: 
+<item id="TextComponent-152" labelx="-16" labely="-24" objectName="TextComponent-156" labelrot="0" Show_id="false" Text="b0" hflip="1" x="108" y="-220" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
+TextComponent-155: 
+<item id="TextComponent-152" labelx="-16" labely="-24" objectName="TextComponent-155" labelrot="0" Show_id="false" Text="b0" hflip="1" x="108" y="-168" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
+TextComponent-154: 
+<item id="TextComponent-152" labelx="-16" labely="-24" objectName="TextComponent-154" labelrot="0" Show_id="false" Text="b0" hflip="1" x="108" y="-124" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
+TextComponent-153: 
+<item id="TextComponent-152" labelx="-16" labely="-24" objectName="TextComponent-153" labelrot="0" Show_id="false" Text="b1" hflip="1" x="108" y="-72" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
+TextComponent-152: 
+<item id="TextComponent-152" labelx="-16" labely="-24" objectName="TextComponent-152" labelrot="0" Show_id="false" Text="b0" hflip="1" x="108" y="-16" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
 TextComponent-151: 
-<item id="TextComponent-151" labelx="-16" labely="-24" objectName="TextComponent-151" labelrot="0" Show_id="false" Text="1. řádek " hflip="1" x="-492" y="-248" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="true" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+<item id="TextComponent-151" labelx="-16" labely="-24" objectName="TextComponent-151" labelrot="0" Show_id="false" Text="1. řádek GENERATOR + zvolená funkce: SIN, RAMP, SQR, DTMF&#xa;2. řádek zadávání frekvence v Hz výchozí hodnota 10Hz jinak error " hflip="1" x="-556" y="-232" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="true" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
  
 Node-149: 
 <item rotation="0" labelrot="0" vflip="1" objectName="Node-149" hflip="1" id="Node-149" labelx="-16" valLabelx="0" labely="-24" valLabely="0" x="84" Show_id="false" y="-348" valLabRot="0" itemtype="Node"/>
@@ -10,10 +34,10 @@ Frequencimeter-147:
 <item rotation="0" labelrot="0" vflip="1" objectName="Frequencimeter-147" hflip="1" id="Frequencimeter-147" labelx="-32" valLabelx="0" labely="-24" valLabely="0" x="132" Show_id="false" y="-388" valLabRot="0" itemtype="Frequencimeter"/>
  
 TextComponent-143: 
-<item id="TextComponent-143" labelx="-16" labely="-24" objectName="TextComponent-143" labelrot="0" Show_id="false" Text="Převodník" hflip="1" x="116" y="-348" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+<item id="TextComponent-143" labelx="-16" labely="-24" objectName="TextComponent-143" labelrot="0" Show_id="false" Text="Převodník" hflip="1" x="268" y="-360" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
  
 TextComponent-142: 
-<item id="TextComponent-142" labelx="-16" labely="-24" objectName="TextComponent-142" labelrot="0" Show_id="false" Text="Klávesnice 4x4 &#xa;S - sinus&#xa;R - pila&#xa;Q - obdelník&#xa;D - DTMF&#xa;* - delete - nastavení výchozí dodnoty 10Hz&#xa;# - ENTER " hflip="1" x="124" y="176" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+<item id="TextComponent-142" labelx="-16" labely="-24" objectName="TextComponent-142" labelrot="0" Show_id="false" Text="Klávesnice 4x4 &#xa;S - sinus&#xa;R - pila&#xa;Q - obdelník&#xa;D - DTMF&#xa;* - delete - nastavení výchozí dodnoty 10Hz&#xa;# - ENTER &#xa;číslice - pro zadávání hodnoty frekvence v Hz" hflip="1" x="124" y="176" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
  
 Node-46: 
 <item rotation="0" labelrot="0" vflip="1" objectName="Node-46" hflip="1" id="Node-143" labelx="-16" valLabelx="0" labely="-24" valLabely="0" x="-144" Show_id="false" y="304" valLabRot="0" itemtype="Node"/>
