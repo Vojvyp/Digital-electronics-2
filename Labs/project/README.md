@@ -112,7 +112,7 @@ Na displeji je zobrazován režim, ve kterém generátor běží a také frekven
 
 
 
-Kód začíná tím, že se přednastaví displej (knihovna lcd), nastaví se piny potřebné k DA převodníku na výstupní (vlastní knihovna, která využívá knihovnu GPIO) a nastavení AD převodníku pro čtení stisknutého tlačítka z klávesnice.
+Kód začíná tím, že se přednastaví displej (knihovna lcd), nastaví se piny potřebné k DA převodníku na výstupní ([*Vlastní knihovna*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/gen_functions.c), která využívá knihovnu GPIO) a nastavení AD převodníku pro čtení stisknutého tlačítka z klávesnice.
 Dále jsou nastavovány 2 časovače. Časovač Timer/Counter1, který se stará o vstupy a Timer/Counter0 pro výstupy (knihovna timer). 
 Po zapnutí je generátor v výchozím stavu - SIN 10 Hz
 
