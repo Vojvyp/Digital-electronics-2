@@ -52,7 +52,7 @@ Schéma zapojení reálného převodníku
 &nbsp;
 
 &nbsp;
-<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/schema2.png">
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/schema3.png">
 &nbsp;
 
 &nbsp;
