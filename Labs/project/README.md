@@ -189,9 +189,20 @@ Simulace režimu generování signálu DTMF:
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/DTMF%201.png">
 &nbsp;
 
-
+## Závěr
 
 
 ## Reference
+&nbsp;
 
+&nbsp;
+https://2n3904blog.com/r2r-dac-dc-simulation/
+&nbsp;
+
+&nbsp;
+https://2n3904blog.com/r2r-dac/
+&nbsp;
+
+&nbsp;
+https://www.electronicwings.com/arduino/4x4-keypad-interfacing-with-arduino-uno
 
