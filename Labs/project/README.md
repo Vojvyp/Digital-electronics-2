@@ -1,5 +1,5 @@
 # R-2R ladder Digital to Analog Converter (DAC)
-[*Vojtěch Vyplel*](https://github.com/Vojvyp/Digital-electronics-2/tree/master/Labs/project); [*Aleš Pokorný*](https://github.com/xpokor79/Digital-electronics-2/tree/master/Labs)
+[*Vojtěch Vyplel*](https://github.com/Vojvyp/Digital-electronics-2/tree/master/Labs/project); [*Aleš Pokorný*](https://github.com/xpokor79/Digital-electronics-2/tree/master/Labs/project)
 
 ### Cíle projektu
 Naprogramovat generátor funkcí v rozsahu frekvencí 10Hz - 5kHz s průběhy: sin, square, ramp a generování signálu DTMF. Informace o aktuálním nastavení se budou zobrazovat na LCD. Zadávání hodnot bude realizováno pomocí klávesnice 4x4.
