@@ -74,7 +74,7 @@ R - pila
 &nbsp;
 
 &nbsp;
-Q - obdelník
+Q - obdélník
 &nbsp;
 
 &nbsp;
@@ -102,20 +102,17 @@ Pro ovládání LCD použijeme 4 bitový mód, díky čemuž minimaluzijeme poč
 Vývojový diagram programu:
 &nbsp;
 
-<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/diagram.png">
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/vyvojdiag.png">
 
 Displej:
 
 Na displeji je zobrazován režim, ve kterém generátor běží a také frekvence zvloeného signálu, případně zvolené tlačítko pro DTMF.
 
-Klávesnice:
-
-Díky klávesnici je nastavován režim generátoru. Generátor nabízí generování fukce sinus, rampu, obdélník a také DTMF. Klávesnice je 4x4, na pravé části jsou tlačítka pro  jednotlivé funkce. 
-Zbylou část tvoří standardní klávesnice od 0 do 9 včetně * a #. Pomocí číslic se zadává frekvence generovaného signál. Rozsah prekvencí je 10 Hz až 5 kHz. 
 
 
 
-Kód začíná tím, že se přednastaví displej (knihovna lcd), nastaví se piny potřebné k DA převodníku na výstupní (vlastní knihovna, která využívá knihovnu GPIO) a nastavení AD převodníku pro čtení stisknutého tlačítka z klávesnice.
+
+Kód začíná tím, že se přednastaví displej (knihovna lcd), nastaví se piny potřebné k DA převodníku na výstupní ([*Vlastní knihovna*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/gen_functions.c), která využívá knihovnu GPIO) a nastavení AD převodníku pro čtení stisknutého tlačítka z klávesnice.
 Dále jsou nastavovány 2 časovače. Časovač Timer/Counter1, který se stará o vstupy a Timer/Counter0 pro výstupy (knihovna timer). 
 Po zapnutí je generátor v výchozím stavu - SIN 10 Hz
 
@@ -128,6 +125,7 @@ Pomocí tlačítka '#' se textová proměnná pro frekvenci převede na číslo 
 V případě, že by zadaná frekvence nebyla v povoleném rozsahu (10 až 5k Hz) se na displej zobrazí hláška error na místo frekvence. Krom toho se opět přesune pozice na zapisování na začátek.
 Na konci kódu časovače 1 se opět pouští AD převod. Časovač přeteče každých 262 ms, což by měla být dostatečná doba pro AD převodník, aby dokončil svou činnost.
 
+[*Odkaz na kód*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/main.c)
 
 Časovač0:
 
@@ -138,8 +136,10 @@ Fukce pro obdélník si spočítá kolik je možno udělat změn pro danou frekv
 V režimu DTMF dochází nejprve k určení frekvencí pro zvolené tlačítko. Poté se spočítá velikost kroku v tabulce pro jednotlivé frekvence a výsledná hodnota výstupu je dána součtem těchto 2 hodnot podělené 2.
 Časovač se měl také starat o vypisování informací pomocí knihovny uart, avšak po přidání kódu pro uart celá aplikace zamrzne. 
 
+[*Odkaz na kód*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/main.c)
 
-Vlastní knihovna:
+
+[*Vlastní knihovna:*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/gen_functions.c)
 
 Knihovna obsahuje 3 funkce: output_init, output_bistream a freq_to_stepsize,
 
@@ -151,7 +151,39 @@ Funkce prochází slovo bit po bitu a zapisuje jednotlivé bity na příšlušn�
 funkce freq_to_stepsize má vstupní i výstupní parametry. Vstupem je frekvence a výstup tvoří velikost kroku změny.
 fukce je používáná pro generování DTMF.
 
-## Video / Animace
+## Simulace
+&nbsp;
+Simulace režimu generování sinusového signálu:
+&nbsp;
+
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/SIN%2010Hz.png">
+&nbsp;
+Simulace režimu generování signálu pila:
+&nbsp;
+
+
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/RAMP%2010%20Hz.png">
+&nbsp;
+
+&nbsp;
+Simulace režimu generování obdelníkového signálu:
+&nbsp;
+
+
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/SQR%2020Hz.png">
+&nbsp;
+
+&nbsp;
+Simulace režimu generování signálu DTMF:
+&nbsp;
+
+
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/DTMF%201.png">
+&nbsp;
 
 
 
