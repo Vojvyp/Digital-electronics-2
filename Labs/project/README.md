@@ -74,7 +74,7 @@ R - pila
 &nbsp;
 
 &nbsp;
-Q - obdelník
+Q - obdélník
 &nbsp;
 
 &nbsp;
@@ -151,8 +151,21 @@ Funkce prochází slovo bit po bitu a zapisuje jednotlivé bity na příšlušn�
 funkce freq_to_stepsize má vstupní i výstupní parametry. Vstupem je frekvence a výstup tvoří velikost kroku změny.
 fukce je používáná pro generování DTMF.
 
-## Video / Animace
+## Simulace
+&nbsp;
+Simulace režimu gennerování sinusového signálu:
+&nbsp;
 
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/SIN%2010Hz.png">
+
+&nbsp;
+Simulace režimu gennerování signálu pila:
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/RAMP%2010%20Hz.png">
+&nbsp;
+
+&nbsp;
 
 
 
