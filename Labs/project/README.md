@@ -108,10 +108,7 @@ Displej:
 
 Na displeji je zobrazován režim, ve kterém generátor běží a také frekvence zvloeného signálu, případně zvolené tlačítko pro DTMF.
 
-Klávesnice:
 
-Díky klávesnici je nastavován režim generátoru. Generátor nabízí generování fukce sinus, rampu, obdélník a také DTMF. Klávesnice je 4x4, na pravé části jsou tlačítka pro  jednotlivé funkce. 
-Zbylou část tvoří standardní klávesnice od 0 do 9 včetně * a #. Pomocí číslic se zadává frekvence generovaného signál. Rozsah prekvencí je 10 Hz až 5 kHz. 
 
 
 
@@ -128,6 +125,7 @@ Pomocí tlačítka '#' se textová proměnná pro frekvenci převede na číslo 
 V případě, že by zadaná frekvence nebyla v povoleném rozsahu (10 až 5k Hz) se na displej zobrazí hláška error na místo frekvence. Krom toho se opět přesune pozice na zapisování na začátek.
 Na konci kódu časovače 1 se opět pouští AD převod. Časovač přeteče každých 262 ms, což by měla být dostatečná doba pro AD převodník, aby dokončil svou činnost.
 
+[*Odkaz na kód*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/main.c)
 
 Časovač0:
 
@@ -141,7 +139,7 @@ V režimu DTMF dochází nejprve k určení frekvencí pro zvolené tlačítko. 
 [*Odkaz na kód*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/main.c)
 
 
-Vlastní knihovna:
+[*Vlastní knihovna:*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/gen_functions.c)
 
 Knihovna obsahuje 3 funkce: output_init, output_bistream a freq_to_stepsize,
 
