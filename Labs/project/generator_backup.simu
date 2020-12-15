@@ -1,5 +1,20 @@
 <circuit reactStep="50" speed="1000000" animate="0" type="simulide_0.4" noLinAcc="5">
  
+TextComponent-151: 
+<item id="TextComponent-151" labelx="-16" labely="-24" objectName="TextComponent-151" labelrot="0" Show_id="false" Text="1. řádek " hflip="1" x="-492" y="-248" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="true" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
+Node-149: 
+<item rotation="0" labelrot="0" vflip="1" objectName="Node-149" hflip="1" id="Node-149" labelx="-16" valLabelx="0" labely="-24" valLabely="0" x="84" Show_id="false" y="-348" valLabRot="0" itemtype="Node"/>
+ 
+Frequencimeter-147: 
+<item rotation="0" labelrot="0" vflip="1" objectName="Frequencimeter-147" hflip="1" id="Frequencimeter-147" labelx="-32" valLabelx="0" labely="-24" valLabely="0" x="132" Show_id="false" y="-388" valLabRot="0" itemtype="Frequencimeter"/>
+ 
+TextComponent-143: 
+<item id="TextComponent-143" labelx="-16" labely="-24" objectName="TextComponent-143" labelrot="0" Show_id="false" Text="Převodník" hflip="1" x="116" y="-348" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
+TextComponent-142: 
+<item id="TextComponent-142" labelx="-16" labely="-24" objectName="TextComponent-142" labelrot="0" Show_id="false" Text="Klávesnice 4x4 &#xa;S - sinus&#xa;R - pila&#xa;Q - obdelník&#xa;D - DTMF&#xa;* - delete - nastavení výchozí dodnoty 10Hz&#xa;# - ENTER " hflip="1" x="124" y="176" Font="Helvetica [Cronyx]" itemtype="TextComponent" Fixed_Width="false" rotation="0" valLabRot="0" valLabelx="0" valLabely="0" vflip="1" Font_Size="10" Margin="5" Border="1" Opacity="1"/>
+ 
 Node-46: 
 <item rotation="0" labelrot="0" vflip="1" objectName="Node-46" hflip="1" id="Node-143" labelx="-16" valLabelx="0" labely="-24" valLabely="0" x="-144" Show_id="false" y="304" valLabRot="0" itemtype="Node"/>
  
@@ -126,14 +141,8 @@ Node-6:
 Node-5: 
 <item rotation="0" labelrot="0" vflip="1" objectName="Node-5" hflip="1" id="Node-157" labelx="-16" valLabelx="0" labely="-24" valLabely="0" x="-132" Show_id="false" y="304" valLabRot="0" itemtype="Node"/>
  
-Probe-4: 
-<item id="Probe-150" labelx="16" labely="-16" objectName="Probe-4" labelrot="45" Show_id="false" hflip="1" x="-160" y="216" itemtype="Probe" rotation="-45" valLabRot="45" valLabelx="16" valLabely="0" vflip="1" PlotterCh="0" Show_volt="true" Threshold="2.5"/>
- 
-Probe-3: 
-<item id="Probe-151" labelx="16" labely="-16" objectName="Probe-3" labelrot="45" Show_id="false" hflip="1" x="104" y="112" itemtype="Probe" rotation="-45" valLabRot="45" valLabelx="16" valLabely="0" vflip="1" PlotterCh="0" Show_volt="true" Threshold="2.5"/>
- 
 Fixed Voltage-2: 
-<item id="Fixed Voltage-153" labelx="-64" labely="-24" objectName="Fixed Voltage-2" labelrot="0" Show_id="false" hflip="1" x="56" y="100" itemtype="Fixed Voltage" rotation="0" valLabRot="0" valLabelx="-16" valLabely="8" Voltage="5" Unit=" V" Show_Volt="true" vflip="1"/>
+<item id="Fixed Voltage-153" labelx="-64" labely="-24" objectName="Fixed Voltage-2" labelrot="0" Show_id="false" hflip="1" x="52" y="100" itemtype="Fixed Voltage" rotation="0" valLabRot="0" valLabelx="-16" valLabely="8" Voltage="5" Unit=" V" Show_Volt="true" vflip="1"/>
  
 Node-1: 
 <item rotation="0" labelrot="0" vflip="1" objectName="Node-1" hflip="1" id="Node-155" labelx="-16" valLabelx="0" labely="-24" valLabely="0" x="88" Show_id="false" y="160" valLabRot="0" itemtype="Node"/>
@@ -258,9 +267,6 @@ Connector-107:
 Connector-109: 
 <item id="Connector-172" labelx="-16" labely="-24" objectName="Connector-109" labelrot="0" Show_id="false" hflip="1" x="-248" y="-20" itemtype="Connector" rotation="0" valLabRot="0" pointList="-248,-20,-260,-20,-260,-80,-28,-80,-28,-300,28,-300" valLabelx="0" valLabely="0" startpinid="atmega328-15-PD2" vflip="1" enodeid="Circ_eNode-110" endpinid="Resistor-21-lPin"/>
  
-Connector-111: 
-<item id="Connector-67" labelx="-16" labely="-24" objectName="Connector-111" labelrot="0" Show_id="false" hflip="1" x="60" y="-348" itemtype="Connector" rotation="0" valLabRot="0" pointList="60,-348,84,-348,84,-340" valLabelx="0" valLabely="0" startpinid="Resistor-23-rPin" vflip="1" enodeid="Circ_eNode-112" endpinid="Resistor-25-lPin"/>
- 
 Connector-113: 
 <item id="Connector-99" labelx="-16" labely="-24" objectName="Connector-113" labelrot="0" Show_id="false" hflip="1" x="88" y="216" itemtype="Connector" rotation="0" valLabRot="0" pointList="88,216,88,208" valLabelx="0" valLabely="0" startpinid="Resistor-39-lPin" vflip="1" enodeid="Circ_eNode-114" endpinid="Node-9-0"/>
  
@@ -316,10 +322,19 @@ Connector-137:
 <item id="Connector-133" labelx="-16" labely="-24" objectName="Connector-137" labelrot="0" Show_id="false" hflip="1" x="88" y="168" itemtype="Connector" rotation="0" valLabRot="0" pointList="88,168,88,160" valLabelx="0" valLabely="0" startpinid="Resistor-38-lPin" vflip="1" enodeid="Circ_eNode-138" endpinid="Node-1-0"/>
  
 Connector-139: 
-<item id="Connector-154" labelx="-16" labely="-24" objectName="Connector-139" labelrot="0" Show_id="false" hflip="1" x="72" y="100" itemtype="Connector" rotation="0" valLabRot="0" pointList="72,100,88,100,88,160" valLabelx="0" valLabely="0" startpinid="Fixed Voltage-2-outnod" vflip="1" enodeid="Circ_eNode-138" endpinid="Node-1-1"/>
+<item id="Connector-154" labelx="-16" labely="-24" objectName="Connector-139" labelrot="0" Show_id="false" hflip="1" x="68" y="100" itemtype="Connector" rotation="0" valLabRot="0" pointList="68,100,88,100,88,160" valLabelx="0" valLabely="0" startpinid="Fixed Voltage-2-outnod" vflip="1" enodeid="Circ_eNode-138" endpinid="Node-1-1"/>
  
 Connector-140: 
 <item id="Connector-156" labelx="-16" labely="-24" objectName="Connector-140" labelrot="0" Show_id="false" hflip="1" x="88" y="160" itemtype="Connector" rotation="0" valLabRot="0" pointList="88,160,56,160,56,184,32,184" valLabelx="0" valLabely="0" startpinid="Node-1-2" vflip="1" enodeid="Circ_eNode-138" endpinid="KeyPad-10-Pin0"/>
+ 
+Connector-111: 
+<item id="Connector-111" labelx="-16" labely="-24" objectName="Connector-111" labelrot="0" Show_id="false" hflip="1" x="60" y="-348" itemtype="Connector" rotation="0" valLabRot="0" pointList="60,-348,84,-348" valLabelx="0" valLabely="0" startpinid="Resistor-23-rPin" vflip="1" enodeid="enode-148" endpinid="Node-149-0"/>
+ 
+Connector-148: 
+<item id="Connector-148" labelx="-16" labely="-24" objectName="Connector-148" labelrot="0" Show_id="false" hflip="1" x="92" y="-388" itemtype="Connector" rotation="0" valLabRot="0" pointList="92,-388,84,-388,84,-348" valLabelx="0" valLabely="0" startpinid="Frequencimeter-147-lPin" vflip="1" enodeid="enode-148" endpinid="Node-149-1"/>
+ 
+Connector-150: 
+<item id="Connector-150" labelx="-16" labely="-24" objectName="Connector-150" labelrot="0" Show_id="false" hflip="1" x="84" y="-348" itemtype="Connector" rotation="0" valLabRot="0" pointList="84,-348,84,-340" valLabelx="0" valLabely="0" startpinid="Node-149-2" vflip="1" enodeid="enode-148" endpinid="Resistor-25-lPin"/>
  
 PlotterWidget-141: 
 <item x="0" y="0" size="" sizeIncrement="" Tracks="1" toolTipDuration="-1" MaxVolt="500" baseSize="" statusTip="" normalGeometry="" childrenRect="" fullScreen="false" frameGeometry="" childrenRegion="" windowIcon="" MinVolt="-500" visible="false" windowTitle="" pos="" acceptDrops="false" objectName="PlotterWidget-141" windowOpacity="1" windowModality="0" inputMethodHints="0" focusPolicy="0" cursor="" windowModified="false" layoutDirection="0" itemtype="Plotter" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" frameSize="" toolTip="" enabled="true" locale="" focus="false" minimized="false" minimumHeight="200" windowFilePath="" width="200" maximized="false" palette="" rect="" mouseTracking="false" styleSheet="" maximumHeight="200" minimumSize="" isActiveWindow="true" Scale="1" modal="false" autoFillBackground="false" height="200" sizeHint="" geometry="" maximumWidth="1000" sizePolicy="" updatesEnabled="true" minimumWidth="200" accessibleName="" minimumSizeHint="" maximumSize="" windowIconText="" accessibleDescription="" contextMenuPolicy="1" whatsThis=""/>
