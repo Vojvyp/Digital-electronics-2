@@ -1,8 +1,8 @@
 # R-2R ladder Digital to Analog Converter (DAC)
-Vojtěch Vyplel; [*Aleš Pokorný*](https://github.com/xpokor79/Digital-electronics-2/tree/master/Labs)
+[*Vojtěch Vyplel*](https://github.com/Vojvyp/Digital-electronics-2/tree/master/Labs/project); [*Aleš Pokorný*](https://github.com/xpokor79/Digital-electronics-2/tree/master/Labs)
 
 ### Cíle projektu
-Naprogramovat generátor funkcí v rozsahu frekvencí 10Hz - 5kHz s průběhy: sin, square, ramp a generování signálu DTMF. Informace o aktuálním nastavení se budou zobrazovat na LCD. Zadávání hodnot bude realizováno pomocí klávesnice 4x4.Generátor bude možné ovládat pomocí UART.
+Naprogramovat generátor funkcí v rozsahu frekvencí 10Hz - 5kHz s průběhy: sin, square, ramp a generování signálu DTMF. Informace o aktuálním nastavení se budou zobrazovat na LCD. Zadávání hodnot bude realizováno pomocí klávesnice 4x4.
 
 ## Popis hardware
 Základem našeho generátoru funkcí bude mikroprocesor atmega328p a D/A převodík typu R2R postavený z odporové sítě.
@@ -96,6 +96,8 @@ D - DTMF
 #### LCD (Liquid Crystal Display)
 Pro ovládání LCD použijeme 4 bitový mód, díky čemuž minimaluzijeme počet potřebných pinů.(využití knihovny ze cvičení)
 
+
+&nbsp;
 ## Popis kódu a simulace
 
 &nbsp;
@@ -106,12 +108,14 @@ Vývojový diagram programu:
 
 Displej:
 
-Na displeji je zobrazován režim, ve kterém generátor běží a také frekvence zvloeného signálu, případně zvolené tlačítko pro DTMF.
+Na displeji je zobrazován režim, ve kterém generátor běží a také frekvence zvoleného signálu, případně zvolené tlačítko pro DTMF.
+&nbsp;
 
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/display.png">
+&nbsp;
 
-
-
-
+&nbsp;
 Kód začíná tím, že se přednastaví displej (knihovna lcd), nastaví se piny potřebné k DA převodníku na výstupní ([*Vlastní knihovna*](https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/project/project/project/gen_functions.c), která využívá knihovnu GPIO) a nastavení AD převodníku pro čtení stisknutého tlačítka z klávesnice.
 Dále jsou nastavovány 2 časovače. Časovač Timer/Counter1, který se stará o vstupy a Timer/Counter0 pro výstupy (knihovna timer). 
 Po zapnutí je generátor v výchozím stavu - SIN 10 Hz
@@ -185,9 +189,27 @@ Simulace režimu generování signálu DTMF:
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/DTMF%201.png">
 &nbsp;
 
+## Závěr
+Vytvořený generátor umí generovat tři základní funkce (sinus, pila, obdélník) v rozsahu frekvencí 10-5000 Hz. Dále generuje DTMF signál pro talčítka 0-9 včetně * #. Generátor měl také odesílat informace o zvoleném režimu, frekvenci a zvoleném tlačítku DTMF. To se nám ovšem nepodařilo zprovoznit, aplikace zamrzne. V simulátoru občas dojde k odchylkám signálů, ale to je pravděpodobně způsobeno simulátorem. 
+&nbsp;
 
 
-
+&nbsp;
 ## Reference
+&nbsp;
 
+&nbsp;
+https://2n3904blog.com/r2r-dac-dc-simulation/
+&nbsp;
+
+&nbsp;
+https://2n3904blog.com/r2r-dac/
+&nbsp;
+
+&nbsp;
+https://www.electronicwings.com/arduino/4x4-keypad-interfacing-with-arduino-uno
+&nbsp;
+
+&nbsp;
+http://www.dialabc.com/sound/dtmf.html
 
