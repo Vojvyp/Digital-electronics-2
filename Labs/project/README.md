@@ -153,19 +153,38 @@ fukce je používáná pro generování DTMF.
 
 ## Simulace
 &nbsp;
-Simulace režimu gennerování sinusového signálu:
+Simulace režimu generování sinusového signálu:
 &nbsp;
 
 &nbsp;
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/SIN%2010Hz.png">
-
 &nbsp;
-Simulace režimu gennerování signálu pila:
+Simulace režimu generování signálu pila:
+&nbsp;
+
+
 &nbsp;
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/RAMP%2010%20Hz.png">
 &nbsp;
 
 &nbsp;
+Simulace režimu generování obdelníkového signálu:
+&nbsp;
+
+
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/SQR%2020Hz.png">
+&nbsp;
+
+&nbsp;
+Simulace režimu generování signálu DTMF:
+&nbsp;
+
+
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/DTMF%201.png">
+&nbsp;
+
 
 
 
